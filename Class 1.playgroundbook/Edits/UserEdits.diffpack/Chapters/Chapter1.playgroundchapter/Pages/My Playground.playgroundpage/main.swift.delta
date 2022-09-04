@@ -6,15 +6,28 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>print(Int(100.5))
-print(Double(100))
+			<string>var value:String? = "hello world"
+var a:Int?        = 10
+// value = nil
+
+
+if (a == nil)
+{
+    print("a has no value")
+}
+else
+{
+    print("a is \(a!)")
+    print("a is " + String(a!))
+}
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 37}</string>
+			<string>{0, 185}</string>
 			<key>OriginalContent</key>
-			<string></string>
+			<string>
+</string>
 			<key>OriginalRange</key>
-			<string>{1, 0}</string>
+			<string>{0, 1}</string>
 		</dict>
 	</array>
 	<key>File</key>
