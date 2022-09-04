@@ -6,19 +6,11 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>var a      = 10
-
-print("value is " + String(a))
-print("value is " + String(1.5))
-print("value is " + String(true))
-
-
-
-
-
+			<string>print(Int(100.5))
+print(Double(100))
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 120}</string>
+			<string>{1, 37}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
